@@ -1,0 +1,95 @@
+﻿  AppDelegate.cpp
+  lua_debugger.c
+  RuntimeLuaImpl.cpp
+  main.cpp
+  SimulatorWin.cpp
+c:\program files (x86)\microsoft sdks\windows\v7.1a\include\shlobj.h(1151): warning C4091: “typedef ”: 没有声明变量时忽略“tagGPFIDL_FLAGS”的左侧 (编译源文件 SimulatorWin.cpp)
+d:\ddemo\glua\frameworks\runtime-src\proj.win32\simulatorwin.cpp(397): warning C4305: “参数”: 从“double”到“float”截断
+d:\ddemo\glua\frameworks\runtime-src\classes\appdelegate.cpp(57): warning C4305: “参数”: 从“double”到“float”截断
+d:\ddemo\glua\frameworks\runtime-src\proj.win32\simulatorwin.cpp(731): warning C4018: “<”: 有符号/无符号不匹配
+  stdafx.cpp
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1189,5): warning MSB8012: TargetPath(D:\DDemo\GLua\frameworks\runtime-src\proj.win32\Debug.win32\TestLua.exe) does not match the Linker's OutputFile property value (D:\DDemo\GLua\simulator\win32\TestLua.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+  复制了 60 个文件
+  LINK : 没有找到 D:\DDemo\GLua\frameworks\runtime-src\proj.win32\../../../simulator/win32/TestLua.exe 或上一个增量链接没有生成它；正在执行完全链接
+    正在创建库 D:\DDemo\GLua\frameworks\runtime-src\proj.win32\Debug.win32\TestLua.lib 和对象 D:\DDemo\GLua\frameworks\runtime-src\proj.win32\Debug.win32\TestLua.exp
+  TestLua.vcxproj -> D:\DDemo\GLua\frameworks\runtime-src\proj.win32\Debug.win32\TestLua.exe
+  TestLua.vcxproj -> D:\DDemo\GLua\frameworks\runtime-src\proj.win32\../../../simulator/win32/TestLua.pdb (Full PDB)
+  复制了 16 个文件
+  复制了 1 个文件
+  D:\DDemo\GLua\res\1.png -> D:\DDemo\GLua\simulator\win32\res\1.png
+  D:\DDemo\GLua\res\HelloWorld.png -> D:\DDemo\GLua\simulator\win32\res\HelloWorld.png
+  D:\DDemo\GLua\res\MainScene.csb -> D:\DDemo\GLua\simulator\win32\res\MainScene.csb
+  D:\DDemo\GLua\res\paibei.png -> D:\DDemo\GLua\simulator\win32\res\paibei.png
+  复制了 4 个文件
+  D:\DDemo\GLua\src\config.lua -> D:\DDemo\GLua\simulator\win32\src\config.lua
+  D:\DDemo\GLua\src\main.lua -> D:\DDemo\GLua\simulator\win32\src\main.lua
+  D:\DDemo\GLua\src\.vscode\launch.json -> D:\DDemo\GLua\simulator\win32\src\.vscode\launch.json
+  D:\DDemo\GLua\src\app\MyApp.lua -> D:\DDemo\GLua\simulator\win32\src\app\MyApp.lua
+  D:\DDemo\GLua\src\app\views\MainScene.lua -> D:\DDemo\GLua\simulator\win32\src\app\views\MainScene.lua
+  D:\DDemo\GLua\src\app\views\pokerEffects.lua -> D:\DDemo\GLua\simulator\win32\src\app\views\pokerEffects.lua
+  D:\DDemo\GLua\src\cocos\init.lua -> D:\DDemo\GLua\simulator\win32\src\cocos\init.lua
+  D:\DDemo\GLua\src\cocos\3d\3dConstants.lua -> D:\DDemo\GLua\simulator\win32\src\cocos\3d\3dConstants.lua
+  D:\DDemo\GLua\src\cocos\cocos2d\bitExtend.lua -> D:\DDemo\GLua\simulator\win32\src\cocos\cocos2d\bitExtend.lua
+  D:\DDemo\GLua\src\cocos\cocos2d\Cocos2d.lua -> D:\DDemo\GLua\simulator\win32\src\cocos\cocos2d\Cocos2d.lua
+  D:\DDemo\GLua\src\cocos\cocos2d\Cocos2dConstants.lua -> D:\DDemo\GLua\simulator\win32\src\cocos\cocos2d\Cocos2dConstants.lua
+  D:\DDemo\GLua\src\cocos\cocos2d\deprecated.lua -> D:\DDemo\GLua\simulator\win32\src\cocos\cocos2d\deprecated.lua
+  D:\DDemo\GLua\src\cocos\cocos2d\DeprecatedCocos2dClass.lua -> D:\DDemo\GLua\simulator\win32\src\cocos\cocos2d\DeprecatedCocos2dClass.lua
+  D:\DDemo\GLua\src\cocos\cocos2d\DeprecatedCocos2dEnum.lua -> D:\DDemo\GLua\simulator\win32\src\cocos\cocos2d\DeprecatedCocos2dEnum.lua
+  D:\DDemo\GLua\src\cocos\cocos2d\DeprecatedCocos2dFunc.lua -> D:\DDemo\GLua\simulator\win32\src\cocos\cocos2d\DeprecatedCocos2dFunc.lua
+  D:\DDemo\GLua\src\cocos\cocos2d\DeprecatedOpenglEnum.lua -> D:\DDemo\GLua\simulator\win32\src\cocos\cocos2d\DeprecatedOpenglEnum.lua
+  D:\DDemo\GLua\src\cocos\cocos2d\DrawPrimitives.lua -> D:\DDemo\GLua\simulator\win32\src\cocos\cocos2d\DrawPrimitives.lua
+  D:\DDemo\GLua\src\cocos\cocos2d\functions.lua -> D:\DDemo\GLua\simulator\win32\src\cocos\cocos2d\functions.lua
+  D:\DDemo\GLua\src\cocos\cocos2d\json.lua -> D:\DDemo\GLua\simulator\win32\src\cocos\cocos2d\json.lua
+  D:\DDemo\GLua\src\cocos\cocos2d\luaj.lua -> D:\DDemo\GLua\simulator\win32\src\cocos\cocos2d\luaj.lua
+  D:\DDemo\GLua\src\cocos\cocos2d\luaoc.lua -> D:\DDemo\GLua\simulator\win32\src\cocos\cocos2d\luaoc.lua
+  D:\DDemo\GLua\src\cocos\cocos2d\Opengl.lua -> D:\DDemo\GLua\simulator\win32\src\cocos\cocos2d\Opengl.lua
+  D:\DDemo\GLua\src\cocos\cocos2d\OpenglConstants.lua -> D:\DDemo\GLua\simulator\win32\src\cocos\cocos2d\OpenglConstants.lua
+  D:\DDemo\GLua\src\cocos\cocosbuilder\CCBReaderLoad.lua -> D:\DDemo\GLua\simulator\win32\src\cocos\cocosbuilder\CCBReaderLoad.lua
+  D:\DDemo\GLua\src\cocos\cocosbuilder\DeprecatedCocosBuilderClass.lua -> D:\DDemo\GLua\simulator\win32\src\cocos\cocosbuilder\DeprecatedCocosBuilderClass.lua
+  D:\DDemo\GLua\src\cocos\cocosdenshion\AudioEngine.lua -> D:\DDemo\GLua\simulator\win32\src\cocos\cocosdenshion\AudioEngine.lua
+  D:\DDemo\GLua\src\cocos\cocosdenshion\DeprecatedCocosDenshionClass.lua -> D:\DDemo\GLua\simulator\win32\src\cocos\cocosdenshion\DeprecatedCocosDenshionClass.lua
+  D:\DDemo\GLua\src\cocos\cocosdenshion\DeprecatedCocosDenshionFunc.lua -> D:\DDemo\GLua\simulator\win32\src\cocos\cocosdenshion\DeprecatedCocosDenshionFunc.lua
+  D:\DDemo\GLua\src\cocos\cocostudio\CocoStudio.lua -> D:\DDemo\GLua\simulator\win32\src\cocos\cocostudio\CocoStudio.lua
+  D:\DDemo\GLua\src\cocos\cocostudio\DeprecatedCocoStudioClass.lua -> D:\DDemo\GLua\simulator\win32\src\cocos\cocostudio\DeprecatedCocoStudioClass.lua
+  D:\DDemo\GLua\src\cocos\cocostudio\DeprecatedCocoStudioFunc.lua -> D:\DDemo\GLua\simulator\win32\src\cocos\cocostudio\DeprecatedCocoStudioFunc.lua
+  D:\DDemo\GLua\src\cocos\cocostudio\StudioConstants.lua -> D:\DDemo\GLua\simulator\win32\src\cocos\cocostudio\StudioConstants.lua
+  D:\DDemo\GLua\src\cocos\controller\ControllerConstants.lua -> D:\DDemo\GLua\simulator\win32\src\cocos\controller\ControllerConstants.lua
+  D:\DDemo\GLua\src\cocos\extension\DeprecatedExtensionClass.lua -> D:\DDemo\GLua\simulator\win32\src\cocos\extension\DeprecatedExtensionClass.lua
+  D:\DDemo\GLua\src\cocos\extension\DeprecatedExtensionEnum.lua -> D:\DDemo\GLua\simulator\win32\src\cocos\extension\DeprecatedExtensionEnum.lua
+  D:\DDemo\GLua\src\cocos\extension\DeprecatedExtensionFunc.lua -> D:\DDemo\GLua\simulator\win32\src\cocos\extension\DeprecatedExtensionFunc.lua
+  D:\DDemo\GLua\src\cocos\extension\ExtensionConstants.lua -> D:\DDemo\GLua\simulator\win32\src\cocos\extension\ExtensionConstants.lua
+  D:\DDemo\GLua\src\cocos\framework\audio.lua -> D:\DDemo\GLua\simulator\win32\src\cocos\framework\audio.lua
+  D:\DDemo\GLua\src\cocos\framework\device.lua -> D:\DDemo\GLua\simulator\win32\src\cocos\framework\device.lua
+  D:\DDemo\GLua\src\cocos\framework\display.lua -> D:\DDemo\GLua\simulator\win32\src\cocos\framework\display.lua
+  D:\DDemo\GLua\src\cocos\framework\init.lua -> D:\DDemo\GLua\simulator\win32\src\cocos\framework\init.lua
+  D:\DDemo\GLua\src\cocos\framework\package_support.lua -> D:\DDemo\GLua\simulator\win32\src\cocos\framework\package_support.lua
+  D:\DDemo\GLua\src\cocos\framework\transition.lua -> D:\DDemo\GLua\simulator\win32\src\cocos\framework\transition.lua
+  D:\DDemo\GLua\src\cocos\framework\components\event.lua -> D:\DDemo\GLua\simulator\win32\src\cocos\framework\components\event.lua
+  D:\DDemo\GLua\src\cocos\framework\extends\LayerEx.lua -> D:\DDemo\GLua\simulator\win32\src\cocos\framework\extends\LayerEx.lua
+  D:\DDemo\GLua\src\cocos\framework\extends\MenuEx.lua -> D:\DDemo\GLua\simulator\win32\src\cocos\framework\extends\MenuEx.lua
+  D:\DDemo\GLua\src\cocos\framework\extends\NodeEx.lua -> D:\DDemo\GLua\simulator\win32\src\cocos\framework\extends\NodeEx.lua
+  D:\DDemo\GLua\src\cocos\framework\extends\SpriteEx.lua -> D:\DDemo\GLua\simulator\win32\src\cocos\framework\extends\SpriteEx.lua
+  D:\DDemo\GLua\src\cocos\framework\extends\UICheckBox.lua -> D:\DDemo\GLua\simulator\win32\src\cocos\framework\extends\UICheckBox.lua
+  D:\DDemo\GLua\src\cocos\framework\extends\UIEditBox.lua -> D:\DDemo\GLua\simulator\win32\src\cocos\framework\extends\UIEditBox.lua
+  D:\DDemo\GLua\src\cocos\framework\extends\UIListView.lua -> D:\DDemo\GLua\simulator\win32\src\cocos\framework\extends\UIListView.lua
+  D:\DDemo\GLua\src\cocos\framework\extends\UIPageView.lua -> D:\DDemo\GLua\simulator\win32\src\cocos\framework\extends\UIPageView.lua
+  D:\DDemo\GLua\src\cocos\framework\extends\UIScrollView.lua -> D:\DDemo\GLua\simulator\win32\src\cocos\framework\extends\UIScrollView.lua
+  D:\DDemo\GLua\src\cocos\framework\extends\UISlider.lua -> D:\DDemo\GLua\simulator\win32\src\cocos\framework\extends\UISlider.lua
+  D:\DDemo\GLua\src\cocos\framework\extends\UITextField.lua -> D:\DDemo\GLua\simulator\win32\src\cocos\framework\extends\UITextField.lua
+  D:\DDemo\GLua\src\cocos\framework\extends\UIWidget.lua -> D:\DDemo\GLua\simulator\win32\src\cocos\framework\extends\UIWidget.lua
+  D:\DDemo\GLua\src\cocos\network\DeprecatedNetworkClass.lua -> D:\DDemo\GLua\simulator\win32\src\cocos\network\DeprecatedNetworkClass.lua
+  D:\DDemo\GLua\src\cocos\network\DeprecatedNetworkEnum.lua -> D:\DDemo\GLua\simulator\win32\src\cocos\network\DeprecatedNetworkEnum.lua
+  D:\DDemo\GLua\src\cocos\network\DeprecatedNetworkFunc.lua -> D:\DDemo\GLua\simulator\win32\src\cocos\network\DeprecatedNetworkFunc.lua
+  D:\DDemo\GLua\src\cocos\network\NetworkConstants.lua -> D:\DDemo\GLua\simulator\win32\src\cocos\network\NetworkConstants.lua
+  D:\DDemo\GLua\src\cocos\physics3d\physics3d-constants.lua -> D:\DDemo\GLua\simulator\win32\src\cocos\physics3d\physics3d-constants.lua
+  D:\DDemo\GLua\src\cocos\spine\SpineConstants.lua -> D:\DDemo\GLua\simulator\win32\src\cocos\spine\SpineConstants.lua
+  D:\DDemo\GLua\src\cocos\ui\DeprecatedUIEnum.lua -> D:\DDemo\GLua\simulator\win32\src\cocos\ui\DeprecatedUIEnum.lua
+  D:\DDemo\GLua\src\cocos\ui\DeprecatedUIFunc.lua -> D:\DDemo\GLua\simulator\win32\src\cocos\ui\DeprecatedUIFunc.lua
+  D:\DDemo\GLua\src\cocos\ui\experimentalUIConstants.lua -> D:\DDemo\GLua\simulator\win32\src\cocos\ui\experimentalUIConstants.lua
+  D:\DDemo\GLua\src\cocos\ui\GuiConstants.lua -> D:\DDemo\GLua\simulator\win32\src\cocos\ui\GuiConstants.lua
+  D:\DDemo\GLua\src\LuaIdeDebug\LuaDebug.lua -> D:\DDemo\GLua\simulator\win32\src\LuaIdeDebug\LuaDebug.lua
+  D:\DDemo\GLua\src\LuaIdeDebug\LuaDebugjit.lua -> D:\DDemo\GLua\simulator\win32\src\LuaIdeDebug\LuaDebugjit.lua
+  D:\DDemo\GLua\src\packages\mvc\AppBase.lua -> D:\DDemo\GLua\simulator\win32\src\packages\mvc\AppBase.lua
+  D:\DDemo\GLua\src\packages\mvc\init.lua -> D:\DDemo\GLua\simulator\win32\src\packages\mvc\init.lua
+  D:\DDemo\GLua\src\packages\mvc\ViewBase.lua -> D:\DDemo\GLua\simulator\win32\src\packages\mvc\ViewBase.lua
+  复制了 71 个文件
